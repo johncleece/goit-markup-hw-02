@@ -37,6 +37,7 @@ header {
     justify-content: center;
     padding: 24px 0;
     width: 100vw;
+    border-bottom: 1px solid var(--accent-white);
 }
 
 .heading-navigation a>.firstword-logo {
@@ -140,7 +141,7 @@ ul .contact-links {
     margin: 0;
 }
 
-button {
+.section-1 button {
     background-color: var(--primary-color);
     border: none;
 
@@ -285,6 +286,124 @@ button .orderservice-button:active {
     padding-bottom: 32px;
     margin: 0;
 }
+
+
+/* Portfolio Page */
+
+/* Section 1 */
+.portfolio-tab-menu {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 72px;
+    padding-top: 96px;
+}
+
+.portfolio-tab-menu button {
+    margin-right: 24px;
+}
+
+.portfolio-tab-menu button.tab-button a {
+    border-radius: 4px;
+    border: 1px solid var(--accent-white);
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cloud-color);
+    color: var(--iris-color);
+}
+
+.portfolio-tab-menu button.active-tab-button a {
+    border-radius: 4px;
+    border: 1px solid var(--accent-white);
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--iris-color);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    color: var(--text-white);
+}
+
+.portfolio-tab-menu button.tab-button,
+.portfolio-tab-menu button.active-tab-button {
+    border: none;
+    padding: 0;
+    border-radius: 4px;
+}
+
+button.tab-button a:hover {
+    border-radius: 4px;
+    border: 1px solid var(--accent-white);
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--iris-color);
+    color: var(--text-white);
+}
+
+.portfolio-tab-menu button a {
+    text-decoration: none;
+    font-family: var(--font-family, san-serif);
+    font-size: var(--paragraph-text-size);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    text-align: center;
+}
+
+.portfolio-section-1 ul.item-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-section-1 ul.item-list li {
+    margin-right: 24px;
+    background-color: var(--text-white);
+    border: 1px solid var(--accent-white);
+
+}
+
+.portfolio-section-1 li h3 {
+    font-family: var(--font-family, san-serif);
+    font-size: var(--heading-three);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: var(--primary-color);
+    padding-top: 32px;
+    padding-left: 16px;
+    margin-bottom: 8px;
+    margin-top: 0;
+
+}
+
+.portfolio-section-1 li p {
+    font-size: var(--paragraph-text-size);
+    font-family: var(--font-family, san-serif);
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--slate-color);
+    padding-bottom: 32px;
+    margin: 0;
+    padding-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer Styling */
 
