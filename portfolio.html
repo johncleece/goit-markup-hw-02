@@ -11,9 +11,11 @@
   <body>
     <!-- heading -->
     <header>
-      <nav>
-        <a href="./portfolio.html" target="_self" title="Logo"><span>WEB</span>STUDIO</a>
-        <ul class="nav-menu">
+      <nav class="heading-navigation">
+        <a href="./index.html" target="_self" title="Logo" class="logo"
+          ><span class="firstword-logo">WEB</span>STUDIO</a
+        >
+        <ul class="navigation-menu">
           <li>
             <a href="./index.html">Studio</a>
           </li>
@@ -25,7 +27,7 @@
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contact-links">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
@@ -33,83 +35,47 @@
 
     <!-- main -->
     <main>
-      <!-- section 1 -->
-      <section>
-        <h1>Effective Solutions<br />for Your Business</h1>
-        <button type="button">Order Service</button>
+      <!-- Tab Menu -->
+      <section class="portfolio-tab-menu">
+        <button type="button" class="active-tab-button">
+          <a href="./portfolio.html">All</a>
+        </button>
+        <button type="button" class="tab-button">
+          <a href="./portfolio.html">Web Site</a>
+        </button>
+        <button type="button" class="tab-button">
+          <a href="./portfolio.html">App</a>
+        </button>
+        <button type="button" class="tab-button">
+          <a href="./portfolio.html">Design</a>
+        </button>
+        <button type="button" class="tab-button">
+          <a href="./portfolio.html">Marketing</a>
+        </button>
       </section>
 
-      <!-- section 2 -->
-      <section>
-        <ul>
+      <!-- Section 1 -->
+      <section class="portfolio-section-1">
+        <ul class="item-list">
           <li>
-            <h3>Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the perfect and
-              creative solution.
-            </p>
+            <img src="./images/banking-app.jpg" alt="Bank App" width="360" height="300" />
+            <h3>Banking App Interface Concept</h3>
+            <p>App</p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price within the shortest
-              possible time.
-            </p>
-          </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
-              Research and confirm brands that present the strongest digital growth opportunities
-              and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a deep passion for
-              problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <!-- section 3 -->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
-            <img src="./images/monitor.jpg" alt="Computer Monitor" width="360" height="300" />
-          </li>
-          <li><img src="./images/mobile.jpg" alt="Mobile Phone" width="360" height="300" /></li>
-          <li>
-            <img src="./images/holding-mobile.jpg" alt="Holding Mobile" width="360" height="300" />
-          </li>
-        </ul>
-      </section>
-
-      <!-- section 4 -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img src="./images/mark-guerrero.jpg" alt="Mark Guerrero" width="264" height="260" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/tom-ford.jpg" alt="Tom Ford" width="264" height="260" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/camila-garcia.jpg" alt="Camila Garcia" width="264" height="260" />
-            <h3>Camila Garcia</h3>
+            <img
+              src="./images/cashless-payment.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./images/daniel-wilson.jpg" alt="Daniel Wilson" width="264" height="260" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <img src="./images/meditation-app.jpg" alt="Meditation App" width="360" height="300" />
+            <h3>Meditation App</h3>
+            <p>App</p>
           </li>
         </ul>
       </section>
@@ -117,7 +83,9 @@
 
     <!-- footer  -->
     <footer>
-      <a href="./index.html" target="_blank" title="Logo"><span>WEB</span>STUDIO</a>
+      <a href="./index.html" target="_self" title="Logo" class="logo"
+        ><span class="firstword-logo">WEB</span>STUDIO</a
+      >
       <p>
         Increase the flow of customers and<br />
         sales for your business with digital<br />
