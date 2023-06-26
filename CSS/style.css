@@ -1,3 +1,122 @@
-.firstword-logo {
-    color: #4D5AE5;
+:root {
+    --primary-color: #2E2F42;
+    --text-color: #434455;
+    --text-white: #ffffff;
+    --accent-white: #E7E9FC;
+    --iris-color: #4d5ae5;
+}
+
+body {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Heading CSS */
+header {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    padding: 24px 0;
+}
+
+.heading-navigation a>.firstword-logo {
+    font-family: raleway;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03px;
+    color: var(--iris-color);
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.heading-navigation .logo {
+    font-family: raleway;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03px;
+    color: var(--primary-color);
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.heading-navigation {
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 156px;
+}
+
+.heading-navigation a .logo {
+    padding-right: 76px;
+}
+
+.navigation-menu li a {
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    color: var(--primary-color);
+}
+
+.navigation-menu {
+    margin-left: 36px;
+}
+
+.navigation-menu>li {
+    display: inline-flex;
+    padding-right: 40px;
+}
+
+.contact-links li {
+    display: inline-flex;
+    padding-right: 40px;
+}
+
+.contact-links li a {
+    color: var(--text-color);
+    font-family: roboto;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}
+
+/* Main Content Styling*/
+
+/* Section 1 Styling */
+.section-1 {
+    background-color: var(--primary-color);
+    height: 600px;
+    margin: 0;
+
+}
+
+.section-1 h1 {
+    color: var(--text-white);
+    text-align: center;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    padding-top: 180px;
+    margin: 0;
+}
+
+.section-1 button {
+    color: var(--text-white);
+    text-align: center;
+    padding: 16px 32px;
+    background-color: var(--iris-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
 }
