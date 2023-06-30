@@ -392,6 +392,94 @@ button.tab-button a:hover {
 }
 
 
+/* Section 2*/
+.portfolio-section-2 {
+    padding-top: 48px;
+}
+
+.portfolio-section-2 ul.item-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-section-2 ul.item-list li {
+    margin-right: 24px;
+    background-color: var(--text-white);
+    border: 1px solid var(--accent-white);
+
+}
+
+.portfolio-section-2 li h3 {
+    font-family: var(--font-family, san-serif);
+    font-size: var(--heading-three);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: var(--primary-color);
+    padding-top: 32px;
+    padding-left: 16px;
+    margin-bottom: 8px;
+    margin-top: 0;
+
+}
+
+.portfolio-section-2 li p {
+    font-size: var(--paragraph-text-size);
+    font-family: var(--font-family, san-serif);
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--slate-color);
+    padding-bottom: 32px;
+    margin: 0;
+    padding-left: 16px;
+}
+
+/* Section 3*/
+.portfolio-section-3 {
+    padding-top: 48px;
+    padding-bottom: 120px;
+}
+
+
+.portfolio-section-3 ul.item-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-section-3 ul.item-list li {
+    margin-right: 24px;
+    background-color: var(--text-white);
+    border: 1px solid var(--accent-white);
+
+}
+
+.portfolio-section-3 li h3 {
+    font-family: var(--font-family, san-serif);
+    font-size: var(--heading-three);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: var(--primary-color);
+    padding-top: 32px;
+    padding-left: 16px;
+    margin-bottom: 8px;
+    margin-top: 0;
+
+}
+
+.portfolio-section-3 li p {
+    font-size: var(--paragraph-text-size);
+    font-family: var(--font-family, san-serif);
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--slate-color);
+    padding-bottom: 32px;
+    margin: 0;
+    padding-left: 16px;
+}
+
 
 
 
