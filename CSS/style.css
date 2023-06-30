@@ -304,6 +304,7 @@ button .orderservice-button:active {
 
 .portfolio-tab-menu button {
     margin-right: 24px;
+    cursor: pointer;
 }
 
 .portfolio-tab-menu button.tab-button a {
