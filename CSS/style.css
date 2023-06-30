@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
 :root {
     --primary-color: #2E2F42;
     --text-color: #434455;
@@ -9,7 +12,8 @@
     --heading-two: 36px;
     --heading-three: 20px;
     --paragraph-text-size: 16px;
-    --font-family: roboto;
+    --font-family: 'roboto', san-serif;
+    --font-logo: 'raleway', san-serif;
 }
 
 body {
@@ -21,7 +25,7 @@ a {
 }
 
 p {
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-size: var(--paragraph-text-size);
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -41,7 +45,7 @@ header {
 }
 
 .heading-navigation a>.firstword-logo {
-    font-family: raleway;
+    font-family: var(--font-logo);
     font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.03px;
@@ -51,7 +55,7 @@ header {
 }
 
 .heading-navigation .logo {
-    font-family: raleway;
+    font-family: var(--font-logo);
     font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.03px;
@@ -78,7 +82,7 @@ ul .contact-links {
 
 .navigation-menu li a {
     font-size: var(--paragraph-text-size);
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-weight: 500;
     letter-spacing: 0.32px;
     color: var(--primary-color);
@@ -108,7 +112,7 @@ ul .contact-links {
 
 .contact-links li a {
     color: var(--text-color);
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-size: var(--paragraph-text-size);
     letter-spacing: 0.32px;
 }
@@ -131,7 +135,7 @@ ul .contact-links {
 .section-1 h1 {
     color: var(--text-white);
     text-align: center;
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
@@ -156,7 +160,7 @@ ul .contact-links {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
     font-size: 16px;
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
@@ -177,7 +181,7 @@ button .orderservice-button:active {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
     font-size: 16px;
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
@@ -196,7 +200,7 @@ button .orderservice-button:active {
 }
 
 .section-2 h3 {
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-size: var(--heading-three);
     font-weight: 500;
     line-height: 24px;
@@ -216,7 +220,7 @@ button .orderservice-button:active {
 
 .section-3 h2 {
     font-size: var(--heading-two);
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
@@ -243,7 +247,7 @@ button .orderservice-button:active {
 
 .section-4 h2 {
     font-size: var(--heading-two);
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
@@ -268,7 +272,7 @@ button .orderservice-button:active {
 .section-4 h3 {
     padding-top: 32px;
     font-size: var(--heading-three);
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
@@ -278,7 +282,7 @@ button .orderservice-button:active {
 }
 
 .section-4 p {
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-size: var(--paragraph-text-size);
     color: var(--slate-color);
     letter-spacing: 0.32px;
@@ -345,7 +349,7 @@ button.tab-button a:hover {
 
 .portfolio-tab-menu button a {
     text-decoration: none;
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-size: var(--paragraph-text-size);
     font-weight: 500;
     line-height: 24px;
@@ -367,7 +371,7 @@ button.tab-button a:hover {
 }
 
 .portfolio-section-1 li h3 {
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-size: var(--heading-three);
     font-weight: 500;
     line-height: 24px;
@@ -382,7 +386,7 @@ button.tab-button a:hover {
 
 .portfolio-section-1 li p {
     font-size: var(--paragraph-text-size);
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     line-height: 24px;
     letter-spacing: 0.32px;
     color: var(--slate-color);
@@ -411,7 +415,7 @@ button.tab-button a:hover {
 }
 
 .portfolio-section-2 li h3 {
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-size: var(--heading-three);
     font-weight: 500;
     line-height: 24px;
@@ -426,7 +430,7 @@ button.tab-button a:hover {
 
 .portfolio-section-2 li p {
     font-size: var(--paragraph-text-size);
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     line-height: 24px;
     letter-spacing: 0.32px;
     color: var(--slate-color);
@@ -456,7 +460,7 @@ button.tab-button a:hover {
 }
 
 .portfolio-section-3 li h3 {
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     font-size: var(--heading-three);
     font-weight: 500;
     line-height: 24px;
@@ -471,7 +475,7 @@ button.tab-button a:hover {
 
 .portfolio-section-3 li p {
     font-size: var(--paragraph-text-size);
-    font-family: var(--font-family, san-serif);
+    font-family: var(--font-family);
     line-height: 24px;
     letter-spacing: 0.32px;
     color: var(--slate-color);
