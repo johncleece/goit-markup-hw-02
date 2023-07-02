@@ -57,13 +57,6 @@ button {
 
 /* Navigation Menu List */
 
-.navigation-menu_item,
-.contact-links_item,
-.navigation-menu_link,
-.contact-links_link {
-    list-style-type: none;
-    text-decoration: none;
-}
 
 .navigation-menu_link {
     color: var(--navy-blue-color);
