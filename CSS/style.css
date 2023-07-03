@@ -132,7 +132,6 @@ a {
 }
 
 .benefits-description {
-    color: var(--slate-color);
     font-size: var(--paragraph-text-size);
     font-weight: 400;
     line-height: 1.5;
@@ -162,7 +161,6 @@ a {
 }
 
 .our-team_description {
-    color: var(--slate-color);
     font-size: var(--paragraph-text-size);
     font-weight: 400;
     line-height: 1.5;
@@ -216,7 +214,6 @@ a {
 }
 
 .project-description {
-    color: var(--slate-color);
     font-size: var(--paragraph-text-size);
     font-weight: 400;
     line-height: 1.5;
